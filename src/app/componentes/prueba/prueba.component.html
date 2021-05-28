@@ -1,0 +1,21 @@
+<table class="default">
+    <thead>
+        <tr>
+          <th>Id</th>
+          <th>Correo</th>
+          <th>Nombres</th>
+          <th>Apellidos</th>
+          <th>Número de documento</th>
+          <th>Número de telefono</th>
+        </tr>
+    </thead>
+    <tr  *ngFor="let datos of json">
+      <td>{{datos.id}}</td>
+      <td>{{datos.email}}</td>
+      <td>{{datos.first_name}}</td>
+        <td>{{datos.last_name}}</td>
+        <td>{{datos.n_document}}</td>
+        <td>{{datos.phone_number}}</td>
+      </tr>
+  </table>
+  
